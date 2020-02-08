@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color: #ececec; */
+    font-size: 18px;
+    font-family: Khula, 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-color: #d9e4f5;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', sans-serif;
+    margin: 10px;
+    line-height: 1;
+    text-align: center;
+    color: black;
+    background-image: url("../images/XXXX.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;
+    background-position: center;
+    background-size: cover; */
+    padding: 40px;
+
+}
+
+h2{
+    font-size: 25px;
+    font-family: Khula,'Times New Roman', sans-serif;
+    margin: 20px 10px 0;
+    color: #0c084c;
+    text-align: left;
+}
+
+
+p{
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    color: #0c084c;
+}
+
+a{
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    padding-bottom: 10px;
+    padding-top: 4px;
+}
+
+nav a{
+    /* color of the list links in nav bar */
+    color: #0c084c;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav .current{
+    color: purple;
+}
