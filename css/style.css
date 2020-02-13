@@ -8,7 +8,7 @@ body {
     font-family: Khula, 'Times New Roman', sans-serif;
     margin: 0;
     padding: 0; 
-    background-color: #EBFFFB;
+    background-color: #F1FCFC;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
     margin: 10px;
     line-height: 1;
     text-align: center;
-    color: black;
+    color: #633a82;
     background-size: 100%;
     background-repeat: no-repeat;
     /* background-attachment: fixed;
@@ -31,7 +31,7 @@ h2{
     font-size: 25px;
     font-family: Khula,'Times New Roman', sans-serif;
     margin: 20px 10px 0;
-    color: #0c084c;
+    color: #633a82;
     text-align: left;
 }
 
@@ -39,12 +39,13 @@ h2{
 p{
     text-align: center;
     padding: 25px;
-    margin: 10px;
+    margin: 40px;
     color: #010a43;
 }
 
 a{
     text-decoration: none;
+    color: #72b5b7;
 }
 
 .skip a{
@@ -81,7 +82,7 @@ nav li{
 
 nav a{
     /* color of the list links in nav bar */
-    color: #0c084c;
+    color: #633a82;
 }
 
 nav a:hover{
@@ -89,35 +90,15 @@ nav a:hover{
 }
 
 nav .current{
-    color: purple;
+    color: #633a82;
 }
-/* about section */
-#about-header{
-    font-size: 30px;
-    margin-left: 20px;
-}
-
-.about-me{
-    /* background-color: blue; */
-    opacity: 75%;
-}
-
-#about-paragraph{
-    /* text-align: center; */
-    font-size: 25px;
-    margin: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 5px;
-    background-color: #e1e9f3;
-}
-
 
 /* section for container elements */
 .container{
     display: grid;
     justify-self: center;
     align-self: center;
-    grid-template-columns: auto;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: auto auto auto auto auto;
     grid-column-gap: 0;
     width: 100vw;
@@ -137,6 +118,45 @@ nav .current{
     padding-top: 40px;
 }
 
+/* about section */
+#about-header{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.about-me{
+    background-color: white;
+    font-size: 25px;
+    padding: 65px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin: 40px;
+}
+
+.about{
+    grid-column: 1/span 2;
+}
+
+.education{
+    background-color: white;
+    /* display: block; */
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin: 15px;
+    grid-column: 1/span 1;
+    grid-row: 2/3;
+}
+
+.education h2{
+    padding-bottom: 5px;
+}
+.education p {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    text-align: left;
+}
 
 /* writing samples portion of page */
 
@@ -155,12 +175,12 @@ nav .current{
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
   margin: 10px;
   width: 300px;
-  background-color: #e1e9f3;
+  background-color: white;
 }
 
 .samples-gallery h3, .copy-that h3, .yellow-bird h3, .musicars h3, .mazda h3{
     margin: 15px;
-    color: rgb(12, 8, 76);
+    color: #72b5b7;
 }
 
 #copy-article, #yellow-bird, #musicars-article, #mazda-kai{
@@ -176,18 +196,35 @@ nav .current{
 }
 
 .button{
-    background-color: rgb(12, 8, 76);
+    background-color: white;
     border: none;
-    color: white;
+    color: #633a82;
     text-align: center;
     display: table;
     font-size: 22px;
     box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
     margin: auto;
+    padding: 20px;
+    border-radius: 10%;
 }
 
 .button_class{
     display: inline-block;
 }
 
+
+footer {
+    color: #633a82;
+    font-size: 16px;
+    text-align: center;
+    grid-column: 1/-1;
+}
+
+footer p {
+    padding: 10px;
+}
+
+footer h4{
+    color: #633a82;
+}
 
