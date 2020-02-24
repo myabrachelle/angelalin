@@ -107,7 +107,7 @@ footer {
     align-self: center;
     display: grid;
     grid-template-columns: 50px 2fr 1fr 50px;
-    grid-template-rows: 70px 200px 200px 200px 200px 200px 800px 100px;
+    grid-template-rows: 70px 200px 200px 200px 200px 200px 1000px 100px;
     width: 100vw; 
 }
 
@@ -231,20 +231,25 @@ header{
   min-height: 500px;
 }
 
-.copy-that, .yellow-bird, .musicars, .mazda, .grease, .chitty, .ragtime, .fun-home, .writing-dialogues{
+.copy-that, .yellow-bird, .musicars, .mazda, .grease, .chitty, .ragtime, 
+.fun-home, .writing-dialogues, .paper-dolls, .fiction, .cupcakes, .scooter, .copy-article{
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
   margin: 10px;
   width: 200px;
   background-color: white;
+  min-height: 280px;
 }
 
 .samples-gallery h3, .copy-that h3, .yellow-bird h3, .musicars h3, .mazda h3, 
-.grease h3, .chitty h3, .ragtime h3, .fun-home h3, .writing-dialogues h3{
+.grease h3, .chitty h3, .ragtime h3, .fun-home h3, .writing-dialogues h3, 
+.paper-dolls h3, .fiction h3, .cupcakes h3, .scooter h3, .copy-article h3{
     margin: 15px;
     color: #72b5b7;
 }
 
-#copy-article, #yellow-bird, #musicars-article, #mazda-kai, #grease-musicars, #chitty-chitty, #ragtime, #funhome, #writing{
+#copy-article, #yellow-bird, #musicars-article, #mazda-kai, #grease-musicars, 
+#chitty-chitty, #ragtime, #funhome, #writing, #paperdolls, #fiction-article, 
+#cupcakes-car, #electric-scooter, #copyart{
     width: 100%;
 }
 
